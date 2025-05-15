@@ -6,7 +6,6 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import cors from "cors";
 import productRoutes from "./routes/productRoutes.js";
-
 import categoryRoutes from "./routes/categoryRoutes.js";
 
 dotenv.config();
@@ -17,20 +16,31 @@ connectDB();
 // rest obj
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://dukaanse-1.onrender.com"
+];
+
 // middleware
 app.use(
   cors({
-    origin: "https://dukaanse-1.onrender.com", // ✅ use your deployed frontend URL
+    origin: function (origin, callback) {
+      // allow requests with no origin (like Postman)
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.indexOf(origin) === -1) {
+        const msg = "The CORS policy for this site does not allow access from the specified Origin.";
+        return callback(new Error(msg), false);
+      }
+      return callback(null, true);
+    },
     credentials: true,
   })
 );
 
-//app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(morgan("dev"));
 
 // routes
-
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
