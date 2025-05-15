@@ -113,43 +113,100 @@ const HomePage = () => {
     }
   };
 
-  return (
+ return (
     <Layout title={"All Products - Best offers"}>
       <div className="container-fluid mt-3 home-page">
         <div className="row">
           {/* Sidebar */}
+          {/* Filters Section */}
           <div className="col-md-2">
-            <h4 className="text-center">Filter By Category</h4>
-            <div className="d-flex flex-column">
-              {categories?.map((c) => (
-                <Checkbox
-                  key={c._id}
-                  onChange={(e) => handleFilter(e.target.checked, c._id)}
-                >
-                  {c.name}
-                </Checkbox>
-              ))}
-            </div>
-
-            {/* Price Filter */}
-            <h4 className="text-center mt-4">Filter By Price</h4>
-            <div className="d-flex flex-column">
-              <Radio.Group onChange={(e) => setRadio(e.target.value)}>
-                {Prices?.map((p) => (
-                  <div key={p._id}>
-                    <Radio value={p.array}>{p.name}</Radio>
-                  </div>
-                ))}
-              </Radio.Group>
-            </div>
-
-            <div className="d-flex flex-column mt-3">
+            {/* ✅ Mobile Collapsible Filters */}
+            <div className="d-block d-md-none">
+              {/* Category Toggle */}
               <button
-                className="btn btn-black"
+                className="btn btn-outline-primary w-100 mb-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mobileCategoryFilter"
+                aria-expanded="false"
+                aria-controls="mobileCategoryFilter"
+              >
+                Filter by Category
+              </button>
+              <div className="collapse mb-3" id="mobileCategoryFilter">
+                {categories?.map((c) => (
+                  <Checkbox
+                    key={c._id}
+                    onChange={(e) => handleFilter(e.target.checked, c._id)}
+                  >
+                    {c.name}
+                  </Checkbox>
+                ))}
+              </div>
+
+              {/* Price Toggle */}
+              <button
+                className="btn btn-outline-primary w-100 mb-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mobilePriceFilter"
+                aria-expanded="false"
+                aria-controls="mobilePriceFilter"
+              >
+                Filter by Price
+              </button>
+              <div className="collapse mb-3" id="mobilePriceFilter">
+                <Radio.Group onChange={(e) => setRadio(e.target.value)}>
+                  {Prices?.map((p) => (
+                    <div key={p._id}>
+                      <Radio value={p.array}>{p.name}</Radio>
+                    </div>
+                  ))}
+                </Radio.Group>
+              </div>
+
+              {/* Reset Button (Mobile) */}
+              <button
+                className="btn btn-black w-100 mt-2"
                 onClick={() => window.location.reload()}
               >
                 RESET FILTERS
               </button>
+            </div>
+
+            {/* ✅ Desktop Always-visible Filters */}
+            <div className="d-none d-md-block">
+              <h4 className="text-center">Filter By Category</h4>
+              <div className="d-flex flex-column">
+                {categories?.map((c) => (
+                  <Checkbox
+                    key={c._id}
+                    onChange={(e) => handleFilter(e.target.checked, c._id)}
+                  >
+                    {c.name}
+                  </Checkbox>
+                ))}
+              </div>
+
+              <h4 className="text-center mt-4">Filter By Price</h4>
+              <div className="d-flex flex-column">
+                <Radio.Group onChange={(e) => setRadio(e.target.value)}>
+                  {Prices?.map((p) => (
+                    <div key={p._id}>
+                      <Radio value={p.array}>{p.name}</Radio>
+                    </div>
+                  ))}
+                </Radio.Group>
+              </div>
+
+              <div className="d-flex flex-column mt-3">
+                <button
+                  className="btn btn-black"
+                  onClick={() => window.location.reload()}
+                >
+                  RESET FILTERS
+                </button>
+              </div>
             </div>
           </div>
 
@@ -224,3 +281,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
