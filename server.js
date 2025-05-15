@@ -21,21 +21,19 @@ const allowedOrigins = [
   "https://dukaanse-1.onrender.com"
 ];
 
-// middleware
 app.use(
   cors({
     origin: function (origin, callback) {
-      // allow requests with no origin (like Postman)
       if (!origin) return callback(null, true);
-      if (allowedOrigins.indexOf(origin) === -1) {
-        const msg = "The CORS policy for this site does not allow access from the specified Origin.";
-        return callback(new Error(msg), false);
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, origin); // ✅ this line is key!
       }
-      return callback(null, true);
+      return callback(new Error("Not allowed by CORS"), false);
     },
     credentials: true,
   })
 );
+
 
 app.use(express.json());
 app.use(morgan("dev"));
