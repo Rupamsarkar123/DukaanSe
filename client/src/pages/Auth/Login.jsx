@@ -19,9 +19,12 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(`${BASE_URL}/auth/login`, {
-        email,
-        password,
-      });
+  email,
+  password,
+}, {
+  withCredentials: true,  // <-- Add this
+});
+
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
         setAuth({
