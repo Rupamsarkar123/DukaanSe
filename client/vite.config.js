@@ -6,6 +6,6 @@ export default defineConfig({
   server: {
     host: true, // allow external connections
     port: process.env.PORT || 5173,
-    allowedHosts: ['https://dukaanse-1.onrender.com/'], // ✅ Allow your frontend domain
+    allowedHosts: ['dukaanse-1.onrender.com'], // ✅ Allow your frontend domain
   },
 });
