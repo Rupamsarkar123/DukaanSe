@@ -26,27 +26,12 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          {/* Navbar Toggle Button */}
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            {/* Logo and Brand Name - Aligned in One Row */}
+          {/* Brand and Toggle in one row for small screens */}
+          <div className="d-flex justify-content-between align-items-center w-100">
             <Link
               to="/"
-              className="navbar-brand custom-brand"
+              className="navbar-brand d-flex align-items-center"
               style={{
-                display: "flex",
-                alignItems: "center",
                 gap: "10px",
                 fontSize: "1.8rem",
                 fontWeight: "bold",
@@ -60,17 +45,54 @@ const Header = () => {
                 width="40"
                 height="40"
               />
-              <span>DukaanSe..</span>
+              <Link
+                to="/"
+                className="navbar-brand d-flex align-items-center"
+                style={{
+                  gap: "10px",
+                  fontSize: "1.8rem",
+                  fontWeight: "bold",
+                  color: "black",
+                  textDecoration: "none",
+                }}
+              >
+                <span style={{ textTransform: "none" }}>DukaanSe..</span>
+              </Link>
             </Link>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon" />
+            </button>
+          </div>
 
-            {/* Navbar Items - Aligned to Right */}
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <SearchInput />
+          <div
+            className="collapse navbar-collapse mt-2"
+            id="navbarTogglerDemo01"
+          >
+            {/* Navbar Items */}
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li
+                className="nav-item me-3"
+                style={{ minWidth: "350px", flex: 1 }}
+              >
+                <div style={{ width: "100%" }}>
+                  <SearchInput />
+                </div>
+              </li>
+
               <li className="nav-item">
                 <NavLink to="/" className="nav-link">
                   Home
                 </NavLink>
               </li>
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
@@ -86,7 +108,7 @@ const Header = () => {
                     </Link>
                   </li>
                   {categories?.map((c) => (
-                    <li>
+                    <li key={c._id}>
                       <Link
                         className="dropdown-item"
                         to={`/category/${c.slug}`}
@@ -112,46 +134,43 @@ const Header = () => {
                   </li>
                 </>
               ) : (
-                <>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      href="#"
-                      style={{ textDecoration: "none" }}
-                      onMouseDown={(e) =>
-                        (e.currentTarget.style.textDecoration = "underline")
-                      }
-                      onMouseUp={(e) =>
-                        setTimeout(
-                          () => (e.currentTarget.style.textDecoration = "none"),
-                          200
-                        )
-                      }
-                    >
-                      {auth?.user?.name}
-                    </a>
-
-                    <ul className="dropdown-menu">
-                      <li>
-                        <NavLink to="/dashboard" className="dropdown-item">
-                          Dashboard
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          onClick={handleLogout}
-                          to="/login"
-                          className="dropdown-item"
-                        >
-                          Logout
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                </>
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                    style={{ textDecoration: "none" }}
+                    onMouseDown={(e) =>
+                      (e.currentTarget.style.textDecoration = "underline")
+                    }
+                    onMouseUp={(e) =>
+                      setTimeout(
+                        () => (e.currentTarget.style.textDecoration = "none"),
+                        200
+                      )
+                    }
+                  >
+                    {auth?.user?.name}
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <NavLink to="/dashboard" className="dropdown-item">
+                        Dashboard
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        onClick={handleLogout}
+                        to="/login"
+                        className="dropdown-item"
+                      >
+                        Logout
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
               )}
               <li className="nav-item d-flex align-items-center">
                 <Badge count={cart?.length} showZero offset={[5, 0]}>
