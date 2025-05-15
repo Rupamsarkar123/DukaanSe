@@ -20,10 +20,11 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
-    credentials: true, // Allow cookies and headers
+    origin: "https://dukaanse-1.onrender.com", // ✅ use your deployed frontend URL
+    credentials: true,
   })
 );
+
 //app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(morgan("dev"));
