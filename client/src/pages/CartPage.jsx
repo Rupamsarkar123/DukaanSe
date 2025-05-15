@@ -195,13 +195,15 @@ const CartPage = () => {
                       onInstance={(instance) => setInstance(instance)}
                     />
 
-                    <button
-                      className="btn btn-primary"
-                      onClick={handlePayment}
-                      disabled={loading || !instance || !auth?.user?.address}
-                    >
-                      {loading ? "Processing ...." : "Make Payment"}
-                    </button>
+                    <div className="d-flex justify-content-center">
+                      <button
+                        className="btn btn-primary"
+                        onClick={handlePayment}
+                        disabled={loading || !instance || !auth?.user?.address}
+                      >
+                        {loading ? "Processing ...." : "Make Payment"}
+                      </button>
+                    </div>
                   </>
                 )}
               </div>
