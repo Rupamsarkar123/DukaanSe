@@ -102,7 +102,8 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 
 ### 🗂️ All Categories
-![Categories](https://github.com/user-attachments/assets/8bbe950f-41d5-4a47-b04f-8a49afbe84c8)
+![all categories](https://github.com/user-attachments/assets/dc191c72-6009-4aa8-82d8-6a035577c966)
+
 
 ### 📦 Category Products
 ![Categories](https://github.com/user-attachments/assets/61f32c24-34ed-4d5a-9c83-e8d1d02131fe)
