@@ -142,14 +142,20 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 ### 📝 Policies
 ![Policies](https://github.com/user-attachments/assets/374ae9c4-8169-4b47-8265-7cc2dcfa8a75)
 
-### Responsive for Mobile Users
-![6138703242306111719](https://github.com/user-attachments/assets/ad4ae6af-cd38-43e6-8d4d-1e50aa84d362)
-![6138703242306111717 (1)](https://github.com/user-attachments/assets/63d813f3-ebe9-4cae-9bbd-82dfd0191618)
+### 📱 Responsive for Mobile Users
 
-![6138703242306111721](https://github.com/user-attachments/assets/835283dd-602f-41c0-863c-a5a523b829c9)
-![6138703242306111714 (1)](https://github.com/user-attachments/assets/81e1e587-b879-4900-88d2-c9d648ceb13e)
-![6138703242306111718 (1)](https://github.com/user-attachments/assets/f270f917-7f1e-4578-a545-79c74b83dc5f)
-![6138703242306111715 (1)](https://github.com/user-attachments/assets/6dbb4447-599f-4ee8-8479-a06901fa8a45)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ad4ae6af-cd38-43e6-8d4d-1e50aa84d362" width="30%" />
+  <img src="https://github.com/user-attachments/assets/63d813f3-ebe9-4cae-9bbd-82dfd0191618" width="30%" />
+  <img src="https://github.com/user-attachments/assets/835283dd-602f-41c0-863c-a5a523b829c9" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/81e1e587-b879-4900-88d2-c9d648ceb13e" width="30%" />
+  <img src="https://github.com/user-attachments/assets/f270f917-7f1e-4578-a545-79c74b83dc5f" width="30%" />
+  <img src="https://github.com/user-attachments/assets/6dbb4447-599f-4ee8-8479-a06901fa8a45" width="30%" />
+</p>
+
 
 
 
