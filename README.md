@@ -118,7 +118,7 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 ![add to cart](https://github.com/user-attachments/assets/aea1b03a-086a-447a-a001-bbd5aa33cc42)
 
 ###  🛒 Cart
-![cart]!(https://github.com/user-attachments/assets/679328ff-7b26-4e75-a235-565ce71e8a5e)
+![cart](https://github.com/user-attachments/assets/679328ff-7b26-4e75-a235-565ce71e8a5e)
 
 
 
