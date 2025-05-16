@@ -87,10 +87,58 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 
 ### 🏠 Home Page  
-![Home Page](https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9)
+![Home Page](https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9) 
+![Home Page](https://github.com/user-attachments/assets/62fd40c4-b3c1-4476-a16c-8fb4b0fa4b46)
 
- 
-![Login Page](https://github.com/user-attachments/assets/62fd40c4-b3c1-4476-a16c-8fb4b0fa4b46)
+### 🧾 Products Filtering 
+![Filtering](https://github.com/user-attachments/assets/1421e441-ba65-4a18-a169-868b34f0d1bf)
+![Filtering](https://github.com/user-attachments/assets/11ec7bb0-dc8d-426d-9176-98a195562973)
 
-### 💳 Checkout Page  
-![Checkout](screenshots/checkout.png)
+### 🔍 Searching Products
+![Searching](https://github.com/user-attachments/assets/e1fe194b-14c6-4f0a-a62f-34ac409ba743)
+
+### 📝 Product Details
+![details of product](https://github.com/user-attachments/assets/c9651ff2-c312-40c8-b0f2-af644c20b842)
+
+
+### 🗂️ All Categories
+![Categories](https://github.com/user-attachments/assets/8bbe950f-41d5-4a47-b04f-8a49afbe84c8)
+
+### 📦 Category Products
+![Categories](https://github.com/user-attachments/assets/61f32c24-34ed-4d5a-9c83-e8d1d02131fe)
+
+
+### 👤 Login User
+![Login](https://github.com/user-attachments/assets/4c654f67-cc8b-435c-8a3c-8b4f0d880fe5)
+
+### 👤✏️ Update User details
+![update](https://github.com/user-attachments/assets/c92212c4-8e06-481c-9437-f1a0a06086ab)
+
+###  ➕🛒  Add to Cart
+![add to cart](https://github.com/user-attachments/assets/aea1b03a-086a-447a-a001-bbd5aa33cc42)
+
+###  🛒 Cart
+![cart]!(https://github.com/user-attachments/assets/679328ff-7b26-4e75-a235-565ce71e8a5e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
