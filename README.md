@@ -47,10 +47,10 @@
 ### 🔧 Backend Setup
 
 ```bash
-git clone https://github.com/your-username/dukaanse.git
-cd dukaanse
+git clone https://github.com/Rupamsarkar123/Dukaanse.git
 npm install
-npm run server
+npm run server.js
+
 ```
 Make sure to create a .env file in the root with the following:
 
