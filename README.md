@@ -83,12 +83,13 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 - ✅ Clean UI with Ant Design
 
 
-### 📸 Screenshots
+## 📸 Screenshots
+
 
 ### 🏠 Home Page  
 ![Home Page](https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9)
 
-### 🔐 Login Page  
+ 
 ![Login Page](https://github.com/user-attachments/assets/62fd40c4-b3c1-4476-a16c-8fb4b0fa4b46)
 
 ### 💳 Checkout Page  
