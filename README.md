@@ -155,13 +155,14 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ad4ae6af-cd38-43e6-8d4d-1e50aa84d362" width="23%" />
   <img src="https://github.com/user-attachments/assets/63d813f3-ebe9-4cae-9bbd-82dfd0191618" width="23%" />
+  <img src="https://github.com/user-attachments/assets/f270f917-7f1e-4578-a545-79c74b83dc5f" width="23%" />
   <img src="https://github.com/user-attachments/assets/835283dd-602f-41c0-863c-a5a523b829c9" width="23%" />
-  <img src="https://github.com/user-attachments/assets/81e1e587-b879-4900-88d2-c9d648ceb13e" width="23%" />
+  
 </p>
 
 <p align="center">
   
-  <img src="https://github.com/user-attachments/assets/f270f917-7f1e-4578-a545-79c74b83dc5f" width="23%" />
+  <img src="https://github.com/user-attachments/assets/81e1e587-b879-4900-88d2-c9d648ceb13e" width="23%" />
   <img src="https://github.com/user-attachments/assets/6dbb4447-599f-4ee8-8479-a06901fa8a45" width="23%" />
   <img src="https://github.com/user-attachments/assets/459eabfd-1ea9-405b-b96a-154d3352a742" width="23%" />
   <img src="https://github.com/user-attachments/assets/ead61c20-3e72-45eb-91f7-bdca21c30ccd" width="23%" />
