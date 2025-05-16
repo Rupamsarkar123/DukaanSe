@@ -72,7 +72,7 @@ npm run dev
 ```
 This will start the frontend at http://localhost:5173 and proxy API requests to http://localhost:8080.
 
-## ✨ Features
+### ✨ Features
 
 - ✅ User Registration and Login (JWT based)  
 - ✅ Product Create, Update, Delete  
@@ -83,7 +83,7 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 - ✅ Clean UI with Ant Design
 
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 ### 🏠 Home Page  
 ![Home Page](https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9)
