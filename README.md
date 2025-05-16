@@ -172,11 +172,23 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 ## 🤝 Contributing
 We welcome contributions from the community! If you'd like to improve this project, feel free to:
-Fork the repository
+# 1. Fork the repository
 
-Create a new branch (git checkout -b feature-name)
-Commit your changes (git commit -m "Add feature")
-Push to the branch (git push origin feature-name)
+# 2. Clone your forked repo
+git clone https://github.com/your-username/repo-name.git
+
+# 3. Navigate to the project directory
+cd repo-name
+
+# 4. Create a new branch
+git checkout -b feature-name
+
+# 5. Make your changes and commit
+git commit -m "Add feature"
+
+# 6. Push to your branch
+git push origin feature-name
+
 Open a Pull Request .Whether it's fixing bugs, improving UI, adding features, or enhancing documentation — your help is appreciated! 🙌
 
 
