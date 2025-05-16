@@ -83,18 +83,16 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 - ✅ Clean UI with Ant Design
 
 
-## 📸 Screenshots   
+## 📸 Screenshots
 
 ### 🏠 Home Page  
-![Home Page](screenshots/home.png)
+<img src="screenshots/home.png" alt="Home Page" width="600"/>
 
 ### 🔐 Login Page  
-![Login Page](screenshots/login.png)
+<img src="screenshots/login.png" alt="Login Page" width="600"/>
 
 ### 💳 Checkout Page  
-![Checkout](screenshots/checkout.png)
-
-
+<img src="screenshots/checkout.png" alt="Checkout Page" width="600"/>
 
 
 
