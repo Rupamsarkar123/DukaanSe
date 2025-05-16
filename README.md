@@ -175,20 +175,25 @@ We welcome contributions from the community! If you'd like to improve this proje
 #### 1. Fork the repository
 
 #### 2. Clone your forked repo
-git clone https://github.com/your-username/repo-name.git
-
+```bash
+git clone https://github.com/Rupamsarkar123/DukaanSe.git
+```
 #### 3. Navigate to the project directory
-cd repo-name
-
+```bash
+cd repo
+```
 #### 4. Create a new branch
+```bash
 git checkout -b feature-name
-
+```
 #### 5. Make your changes and commit
+```bash
 git commit -m "Add feature"
-
+```
 #### 6. Push to your branch
+```bash
 git push origin feature-name
-
+```
 Open a Pull Request .Whether it's fixing bugs, improving UI, adding features, or enhancing documentation — your help is appreciated! 🙌
 
 
