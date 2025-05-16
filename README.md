@@ -84,20 +84,13 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 
 ## 📸 Screenshots
-
 ### 🏠 Home Page  
-<img src="!(https://github.com/user-attachments/assets/e250ab68-e35f-4d86-b945-4a6c0e0069fa)
-" alt="Home Page" width="600"/>
-<img src="!(https://github.com/user-attachments/assets/951449a3-77ae-4f20-acbd-0cfc8bf7184f)
+![Home Page]((https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9)
 )
-" alt="Home Page" width="600"/>
 
 ### 🔐 Login Page  
-<img src="screenshots/login.png" alt="Login Page" width="600"/>
+![Login Page]((https://github.com/user-attachments/assets/62fd40c4-b3c1-4476-a16c-8fb4b0fa4b46)
+)
 
 ### 💳 Checkout Page  
-<img src="screenshots/checkout.png" alt="Checkout Page" width="600"/>
-
-
-
-
+![Checkout](screenshots/checkout.png)
