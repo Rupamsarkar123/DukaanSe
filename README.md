@@ -86,7 +86,11 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 ## 📸 Screenshots
 
 ### 🏠 Home Page  
-<img src="screenshots/home.png" alt="Home Page" width="600"/>
+<img src="!(https://github.com/user-attachments/assets/e250ab68-e35f-4d86-b945-4a6c0e0069fa)
+" alt="Home Page" width="600"/>
+<img src="!(https://github.com/user-attachments/assets/951449a3-77ae-4f20-acbd-0cfc8bf7184f)
+)
+" alt="Home Page" width="600"/>
 
 ### 🔐 Login Page  
 <img src="screenshots/login.png" alt="Login Page" width="600"/>
