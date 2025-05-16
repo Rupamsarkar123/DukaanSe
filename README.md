@@ -72,30 +72,30 @@ npm run dev
 ```
 This will start the frontend at http://localhost:5173 and proxy API requests to http://localhost:8080.
 
-###✨ Features
+## ✨ Features
 
-✅ User Registration and Login (JWT based)
+- ✅ User Registration and Login (JWT based)  
+- ✅ Product Create, Update, Delete  
+- ✅ Braintree payment gateway integration  
+- ✅ SEO-friendly URLs using Slugify  
+- ✅ Notifications using Toasts  
+- ✅ Secure password hashing with Bcrypt  
+- ✅ Clean UI with Ant Design
 
-✅ Product Create, Update, Delete
 
-✅ Braintree payment gateway integration
+## 📸 Screenshots   
 
-✅ SEO-friendly URLs using Slugify
+### 🏠 Home Page  
+![Home Page](screenshots/home.png)
 
-✅ Notifications using Toasts
+### 🔐 Login Page  
+![Login Page](screenshots/login.png)
 
-✅ Secure password hashing with Bcrypt
+### 💳 Checkout Page  
+![Checkout](screenshots/checkout.png)
 
-✅ Clean UI with Ant Design
 
-###📸 Screenshots
-Add your screenshots to the screenshots/ folder and link them below
 
-🏠 Home Page
-
-🔐 Login Page
-
-💳 Checkout
 
 
 
