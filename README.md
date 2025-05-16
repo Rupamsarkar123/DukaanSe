@@ -51,3 +51,64 @@ git clone https://github.com/your-username/dukaanse.git
 cd dukaanse
 npm install
 npm run server
+
+Make sure to create a .env file in the root with the following:
+
+ini
+Copy
+Edit
+PORT=8080
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+BRAINTREE_MERCHANT_ID=your_id
+BRAINTREE_PUBLIC_KEY=your_public_key
+BRAINTREE_PRIVATE_KEY=your_private_key
+⚙️ Frontend Setup
+bash
+Copy
+Edit
+cd client
+npm install
+npm run dev
+This will start the frontend at http://localhost:5173 and proxy API requests to http://localhost:8080.
+
+✨ Features
+✅ User Registration and Login (JWT based)
+
+✅ Product Create, Update, Delete
+
+✅ Braintree payment gateway integration
+
+✅ SEO-friendly URLs using Slugify
+
+✅ Notifications using Toasts
+
+✅ Secure password hashing with Bcrypt
+
+✅ Clean UI with Ant Design
+
+📸 Screenshots
+Add your screenshots to the screenshots/ folder and link them below
+
+🏠 Home Page
+
+🔐 Login Page
+
+💳 Checkout
+
+👨‍💻 Author
+Rupam Sarkar
+
+📜 License
+This project is licensed under the ISC License.
+
+🔮 Upcoming Features
+🧾 Order History
+
+🛍️ Wishlist Feature
+
+🧑‍💼 Admin Dashboard
+
+📦 Order Tracking
+
+💳 Razorpay integration (optional)
