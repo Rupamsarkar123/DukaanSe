@@ -132,7 +132,7 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 ![admin products](https://github.com/user-attachments/assets/bcb35e33-4227-4c89-b6cf-4dcbbdbcb21c)
 
 ### ℹ️ About Us
-![about]![Screenshot (124)](https://github.com/user-attachments/assets/05c0b510-3925-47f8-993f-c4785b338ce2)
+![about](https://github.com/user-attachments/assets/05c0b510-3925-47f8-993f-c4785b338ce2)
 
 ### 📞 Contact Us
 ![Contact](https://github.com/user-attachments/assets/d6f5f57a-1475-47b9-9481-a8f9bbe836c6)
