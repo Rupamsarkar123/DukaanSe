@@ -120,6 +120,28 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 ###  🛒 Cart
 ![cart](https://github.com/user-attachments/assets/679328ff-7b26-4e75-a235-565ce71e8a5e)
 
+###  🧑‍💼📋 Admin Dashboard
+![admin](https://github.com/user-attachments/assets/5ac1de2d-9cf5-4569-9259-07a7c080080d)
+
+###  ➕📦 Admin Create Product
+![admin](https://github.com/user-attachments/assets/17f0df7d-4ed8-44e8-8287-aa4b38bb6da9)
+
+
+###  📦📋 Admin All products
+![admin products](https://github.com/user-attachments/assets/bcb35e33-4227-4c89-b6cf-4dcbbdbcb21c)
+
+### ℹ️ About Us
+![about]![Screenshot (124)](https://github.com/user-attachments/assets/05c0b510-3925-47f8-993f-c4785b338ce2)
+
+### 📞 Contact Us
+![Contact](https://github.com/user-attachments/assets/d6f5f57a-1475-47b9-9481-a8f9bbe836c6)
+
+### 📝 Policies
+![Policies](https://github.com/user-attachments/assets/374ae9c4-8169-4b47-8265-7cc2dcfa8a75)
+
+### Responsive for Mobile Users
+
+
 
 
 
