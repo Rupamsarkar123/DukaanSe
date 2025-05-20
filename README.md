@@ -4,7 +4,7 @@
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 ### 🔙 Backend (Node.js + Express + MongoDB)
 
@@ -36,9 +36,9 @@
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
-### 🚨 Prerequisites
+###  Prerequisites
 
 - Node.js v20+
 - MongoDB (local or Atlas)
@@ -72,7 +72,7 @@ npm run dev
 ```
 This will start the frontend at http://localhost:5173 and proxy API requests to http://localhost:8080.
 
-### ✨ Features
+###  Features
 
 -  **User Registration and Login (JWT based)**
 -  **Product Create, Update, Delete**
@@ -170,7 +170,7 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 
 
-## 🤝 Contributing
+##  Contribution
 We welcome contributions from the community! If you'd like to improve this project, feel free to:
 #### 1. Fork the repository
 
@@ -194,7 +194,7 @@ git commit -m "Add feature"
 ```bash
 git push origin feature-name
 ```
-Open a Pull Request .Whether it's fixing bugs, improving UI, adding features, or enhancing documentation — your help is appreciated! 🙌
+Open a Pull Request .Whether it's fixing bugs, improving UI, adding features, or enhancing documentation — your help is appreciated!
 
 
 
