@@ -74,20 +74,20 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 ### ✨ Features
 
-- ✅ **User Registration and Login (JWT based)**
-- ✅ **Product Create, Update, Delete**
-- ✅ **Admin & User Roles with Protected Routes**
-- ✅ **Real-time Product Updates After Admin Actions**
-- ✅ **Product Filtering by Category, Price, and More**
-- ✅ **Product Search Functionality**
-- ✅ **User Profile Update (Name, Password, Address)**
-- ✅ **Add to Cart & View Cart Items**
-- ✅ **Checkout with Braintree Payment Gateway**
-- ✅ **SEO-friendly URLs using Slugify**
-- ✅ **Notifications using React Toasts**
-- ✅ **Secure Password Hashing with Bcrypt**
-- ✅ **Responsive Design for Mobile and Desktop**
-- ✅ **Clean UI with Ant Design**
+-  **User Registration and Login (JWT based)**
+-  **Product Create, Update, Delete**
+-  **Admin & User Roles with Protected Routes**
+-  **Real-time Product Updates After Admin Actions**
+-  **Product Filtering by Category, Price, and More**
+-  **Product Search Functionality**
+-  **User Profile Update (Name, Password, Address)**
+-  **Add to Cart & View Cart Items**
+-  **Checkout with Braintree Payment Gateway**
+-  **SEO-friendly URLs using Slugify**
+-  **Notifications using React Toasts**
+-  **Secure Password Hashing with Bcrypt**
+-  **Responsive Design for Mobile and Desktop**
+-  **Clean UI with Ant Design**
 
 
 
