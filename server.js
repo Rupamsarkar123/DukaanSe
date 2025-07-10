@@ -18,8 +18,10 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://dukaanse-1.onrender.com"
+  "https://dukaanse-1.onrender.com",
+  "https://dukaan-se.vercel.app" 
 ];
+
 
 app.use(
   cors({
