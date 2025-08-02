@@ -6,7 +6,7 @@
 
 ##  Tech Stack
 
-### 🔙 Backend (Node.js + Express + MongoDB)
+### Backend (Node.js + Express + MongoDB)
 
 - **Node.js**
 - **Express.js** 
@@ -21,7 +21,7 @@
 - **slugify** 
 - **express-formidable** 
 
-### 🖥️ Frontend (React + Vite)
+###  Frontend (React + Vite)
 
 - **Vite** 
 - **React**
@@ -44,7 +44,7 @@
 - MongoDB (local or Atlas)
 - npm
 
-### 🔧 Backend Setup
+###  Backend Setup
 
 ```bash
 git clone https://github.com/Rupamsarkar123/Dukaanse.git
@@ -62,7 +62,7 @@ BRAINTREE_MERCHANT_ID=your_id
 BRAINTREE_PUBLIC_KEY=your_public_key
 BRAINTREE_PRIVATE_KEY=your_private_key
 ```
-### ⚙️ Frontend Setup
+###  Frontend Setup
 
 ```bash
 
@@ -91,66 +91,66 @@ This will start the frontend at http://localhost:5173 and proxy API requests to 
 
 
 
-## 📸 Screenshots
+##  Screenshots
 
 
-### 🏠 Home Page  
+###  Home Page  
 ![Home Page](https://github.com/user-attachments/assets/cad52d15-84c6-4c6a-ba76-a6fcf167c5f9) 
 ![Home Page](https://github.com/user-attachments/assets/62fd40c4-b3c1-4476-a16c-8fb4b0fa4b46)
 
-### 🧾 Products Filtering 
+###  Products Filtering 
 ![Filtering](https://github.com/user-attachments/assets/1421e441-ba65-4a18-a169-868b34f0d1bf)
 ![Filtering](https://github.com/user-attachments/assets/11ec7bb0-dc8d-426d-9176-98a195562973)
 
-### 🔍 Searching Products
+###  Searching Products
 ![Searching](https://github.com/user-attachments/assets/e1fe194b-14c6-4f0a-a62f-34ac409ba743)
 
-### 📝 Product Details
+### Product Details
 ![details of product](https://github.com/user-attachments/assets/c9651ff2-c312-40c8-b0f2-af644c20b842)
 
 
-### 🗂️ All Categories
+### All Categories
 ![all categories](https://github.com/user-attachments/assets/dc191c72-6009-4aa8-82d8-6a035577c966)
 
 
-### 📦 Category Products
+###  Category Products
 ![Categories](https://github.com/user-attachments/assets/61f32c24-34ed-4d5a-9c83-e8d1d02131fe)
 
 
-### 👤 Login User
+###  Login User
 ![Login](https://github.com/user-attachments/assets/4c654f67-cc8b-435c-8a3c-8b4f0d880fe5)
 
 
 
-### 👤✏️ Update User details
+### Update User details
 ![update](https://github.com/user-attachments/assets/c92212c4-8e06-481c-9437-f1a0a06086ab)
 
-###  ➕🛒  Add to Cart
+###  Add to Cart
 ![add to cart](https://github.com/user-attachments/assets/aea1b03a-086a-447a-a001-bbd5aa33cc42)
 
-###  🛒 Cart
+###   Cart
 ![cart](https://github.com/user-attachments/assets/679328ff-7b26-4e75-a235-565ce71e8a5e)
 
-###  🧑‍💼📋 Admin Dashboard
+###   Admin Dashboard
 ![admin](https://github.com/user-attachments/assets/5ac1de2d-9cf5-4569-9259-07a7c080080d)
 
-###  ➕📦 Admin Create Product
+###   Admin Create Product
 ![admin](https://github.com/user-attachments/assets/17f0df7d-4ed8-44e8-8287-aa4b38bb6da9)
 
 
-###  📦📋 Admin All products
+###   Admin All products
 ![admin products](https://github.com/user-attachments/assets/bcb35e33-4227-4c89-b6cf-4dcbbdbcb21c)
 
-### ℹ️ About Us
+###  About Us
 ![about](https://github.com/user-attachments/assets/05c0b510-3925-47f8-993f-c4785b338ce2)
 
-### 📞 Contact Us
+###  Contact Us
 ![Contact](https://github.com/user-attachments/assets/d6f5f57a-1475-47b9-9481-a8f9bbe836c6)
 
-### 📝 Policies
+### Policies
 ![Policies](https://github.com/user-attachments/assets/374ae9c4-8169-4b47-8265-7cc2dcfa8a75)
 
-### 📱 Responsive for Mobile Users
+###  Responsive for Mobile Users
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ad4ae6af-cd38-43e6-8d4d-1e50aa84d362" width="23%" />
